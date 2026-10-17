@@ -2,6 +2,7 @@
   "name": "vitai_world",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/MironovNick/vitai_world_tz",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

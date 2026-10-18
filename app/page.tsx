@@ -5,6 +5,7 @@ import {Founders} from "@/app/Founders";
 import {Products} from "@/app/Products";
 import {Subscribe} from "@/app/Subscribe";
 import {LeadForm} from "@/app/LeadForm";
+import {Footer} from "@/app/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
           <Products/>
           <Subscribe/>
           <LeadForm/>
+          <Footer/>
       </div>
   );
 }

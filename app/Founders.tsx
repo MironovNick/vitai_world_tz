@@ -22,7 +22,7 @@ export const Founders = () => {
                         />
                     </ImageWrapper>
                     {/* Декоративный элемент, отсылающий к крафту */}
-                    <Badge>жарим с 2019 года</Badge>
+                    <Badge>жарим кофе с 2019 года</Badge>
                 </ImageColumn>
 
                 {/* Правая колонка: Текст */}

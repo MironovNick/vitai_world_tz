@@ -3,6 +3,8 @@ import {Header} from "@/app/Header";
 import {Hero} from "@/app/Hero";
 import {Founders} from "@/app/Founders";
 import {Products} from "@/app/Products";
+import {Subscribe} from "@/app/Subscribe";
+import {LeadForm} from "@/app/LeadForm";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
           <Hero/>
           <Founders/>
           <Products/>
+          <Subscribe/>
+          <LeadForm/>
       </div>
   );
 }

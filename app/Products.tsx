@@ -220,7 +220,7 @@ const Grid = styled.div`
 
 const Card = styled.div<{ $bgColor: string }>`
   background-color: ${({ $bgColor }) => $bgColor};
-  border-radius: 12px;
+  border-radius: 5px;
   overflow: hidden;
   display: flex;
   flex-direction: column;

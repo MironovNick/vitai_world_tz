@@ -24,8 +24,8 @@ export const Subscribe = () => {
                 <Title>Подписка</Title>
 
                 <Description>
-                    2 пачки по 250 г раз в месяц.<br />
-                    Доставка бесплатно.
+                    2 пачки по 250 г раз в месяц<br />
+                    Доставка бесплатно
                 </Description>
 
                 <PriceBlock>
@@ -102,7 +102,7 @@ const Title = styled.h2`
   color: #FFFFFF;
   font-family: 'Oswald', 'Bebas Neue', sans-serif;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0 0 16px 0;
   letter-spacing: 1px;
@@ -136,7 +136,7 @@ const Price = styled.span`
   color: #C49A6C; /* Наш акцентный цвет */
   font-family: 'Oswald', 'Bebas Neue', sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 500;
 
   @media (min-width: 1024px) {
     font-size: 48px;
@@ -159,7 +159,7 @@ const SubscribeButton = styled.a`
   color: #ffffff;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 16px 48px;
   border-radius: 30px;
   text-decoration: none;

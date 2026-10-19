@@ -81,7 +81,7 @@ export const Products = () => {
                     <SectionTag>Ассортимент</SectionTag>
                     <Title>Наш кофе</Title>
                     <Description>
-                        Мы обжариваем зерно небольшими партиями каждую неделю. Выбирайте вкус под свой способ заваривания — от эспрессо до воронки.
+                        Мы обжариваем зерно небольшими партиями каждую неделю. Выбирайте кофе под свой вкус и любимый способ приготовления — от эспрессо до воронки.
                     </Description>
                 </HeaderBlock>
 
@@ -180,13 +180,13 @@ const SectionTag = styled.span`
 const Title = styled.h2`
   color: #FFFFFF;
   font-family: 'Oswald', 'Bebas Neue', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 12px 0 16px 0;
 
   @media (min-width: 1024px) {
-    font-size: 56px;
+    font-size: 45px;
   }
 `;
 
@@ -272,7 +272,7 @@ const ProductName = styled.h3`
   color: #2C221E;
   font-family: 'Oswald', 'Bebas Neue', sans-serif;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 500;
   margin: 0 0 8px 0;
   text-transform: uppercase;
 `;
@@ -308,7 +308,7 @@ const Price = styled.span`
   color: #2C221E;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
 `;
 
 const Weight = styled.span`

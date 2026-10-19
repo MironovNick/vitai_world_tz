@@ -67,7 +67,7 @@ export const Footer = () => {
                             <ContactItem>
 
                                 <div>
-                                    <Label>Следить за обжаркой в Instagram</Label>
+                                    <Label>Наблюдать за обжаркой в Instagram</Label>
                                     <a href="https://instagram.com/kwarta_coffee" target="_blank" rel="noopener noreferrer">@kwarta_coffee</a>
                                 </div>
                             </ContactItem>

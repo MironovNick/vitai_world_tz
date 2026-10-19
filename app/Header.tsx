@@ -106,17 +106,14 @@ export const Header = () => {
 
                 {/* Десктопная навигация */}
                 <DesktopNav>
+                    <NavLink href="#about">О нас</NavLink>
                     <NavLink href="#coffee">Кофе</NavLink>
                     <NavLink href="#subscription">Подписка</NavLink>
-                    <NavLink href="#about">О нас</NavLink>
-                    <NavLink href="#delivery">Доставка</NavLink>
                 </DesktopNav>
 
                 {/* Действия (Поиск, Корзина, Кнопка) */}
                 <ActionsGroup>
-                    <IconButton aria-label="Поиск">
-                        <SearchIcon />
-                    </IconButton>
+
 
                     <CartWrapper>
                         <IconButton aria-label="Корзина">
@@ -139,10 +136,9 @@ export const Header = () => {
 
             {/* Мобильное меню (упрощенная версия для прототипа) */}
             <MobileMenu $isOpen={isMobileMenuOpen}>
+                <MobileNavLink href="#about">О нас</MobileNavLink>
                 <MobileNavLink href="#coffee">Кофе</MobileNavLink>
                 <MobileNavLink href="#subscription">Подписка</MobileNavLink>
-                <MobileNavLink href="#about">О нас</MobileNavLink>
-                <MobileNavLink href="#delivery">Доставка</MobileNavLink>
             </MobileMenu>
         </StyledHeader>
     );

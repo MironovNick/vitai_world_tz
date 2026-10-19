@@ -118,7 +118,7 @@ const Subtitle = styled.span`
 const MainTitle = styled.h1`
   color: #FFFFFF;
   font-family: 'Oswald', 'Bebas Neue', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1.1;
   text-transform: uppercase;

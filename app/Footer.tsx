@@ -42,15 +42,12 @@ export const Footer = () => {
                 <TopSection>
 
                     <InfoColumn>
-                        <LogoBlock>
-                            <LogoText>КВАРТА</LogoText>
-                            <Slogan>Свежий кофе. Обжарка по четвергам.</Slogan>
-                        </LogoBlock>
+
 
                         <ContactList>
                             {/* Телефон */}
                             <ContactItem>
-                                <IconWrapper><PhoneIcon /></IconWrapper>
+
                                 <div>
                                     <Label>Позвонить</Label>
                                     <a href="tel:+375291234567">+375 (29) 123-45-67</a>
@@ -59,7 +56,7 @@ export const Footer = () => {
 
                             {/* Telegram */}
                             <ContactItem>
-                                <IconWrapper><TelegramIcon /></IconWrapper>
+
                                 <div>
                                     <Label>Написать в Telegram</Label>
                                     <a href="https://t.me/kwarta_coffee" target="_blank" rel="noopener noreferrer">@kwarta_coffee</a>
@@ -68,16 +65,16 @@ export const Footer = () => {
 
                             {/* Instagram */}
                             <ContactItem>
-                                <IconWrapper><InstagramIcon /></IconWrapper>
+
                                 <div>
-                                    <Label>Следить за обжаркой</Label>
+                                    <Label>Следить за обжаркой в Instagram</Label>
                                     <a href="https://instagram.com/kwarta_coffee" target="_blank" rel="noopener noreferrer">@kwarta_coffee</a>
                                 </div>
                             </ContactItem>
 
                             {/* Адрес */}
                             <ContactItem>
-                                <IconWrapper><MapPinIcon /></IconWrapper>
+
                                 <div>
                                     <Label>Самовывоз</Label>
                                     <p>Минск, ул. Короля, 9</p>
@@ -198,7 +195,7 @@ const Slogan = styled.p`
 const ContactList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 10px;
 `;
 
 const ContactItem = styled.div`
@@ -284,7 +281,7 @@ const MapButton = styled.a`
   font-family: 'Inter', sans-serif;
   font-size: 14px;
   font-weight: 600;
-  border-radius: 8px;
+  border-radius: 30px;
   text-decoration: none;
   transition: all 0.2s ease;
 

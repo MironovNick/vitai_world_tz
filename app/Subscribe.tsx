@@ -154,8 +154,9 @@ const SubscribeButton = styled.a`
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF; /* Белая кнопка, как на референсе */
-  color: #1A1A1A;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -169,6 +170,7 @@ const SubscribeButton = styled.a`
 
   &:hover {
     background-color: #F4EBE1; /* Слегка уходит в наш бежевый при наведении */
+    color: #0a0a0a;
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
   }

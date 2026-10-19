@@ -5,9 +5,57 @@ import styled, { css } from 'styled-components';
 
 // Иконки в формате inline SVG для независимости от внешних библиотек
 const LogoIcon = () => (
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 2L2 22H22L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        <path d="M12 22V12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <svg
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        {/* Чашка */}
+        <path
+            d="M5 9C5 9 4.5 14.5 6 17C7 18.5 9 19 12 19C15 19 17 18.5 18 17C19.5 14.5 19 9 19 9H5Z"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+
+        {/* Ручка */}
+        <path
+            d="M19 10H20.5C21.3284 10 22 10.6716 22 11.5V12.5C22 13.3284 21.3284 14 20.5 14H19"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+
+        {/* Блюдце */}
+        <path
+            d="M3 21C3 21 5 23 12 23C19 23 21 21 21 21"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+
+        {/* Пар (левая волна) */}
+        <path
+            d="M9 6C9 5 10 4 9 2.5"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+
+        {/* Пар (правая волна) */}
+        <path
+            d="M12 6C12 4.5 13.5 3.5 12 1"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
     </svg>
 );
 

@@ -36,7 +36,7 @@ const productsData = [
         notes: 'карамель, красное яблоко',
         weight: '250 г',
         price: '29 BYN',
-        bgColor: '#E8F0EA', // Светло-мятный
+        bgColor: '#F4EBE1', // Светло-мятный
         badge: null,
         image: '/images/coffee-colombia.jpg'
     },
@@ -46,7 +46,7 @@ const productsData = [
         notes: 'орех, шоколад, под эспрессо',
         weight: '250 г',
         price: '26 BYN',
-        bgColor: '#F5E6D3', // Персиковый
+        bgColor: '#F4EBE1', // Персиковый
         badge: null,
         image: '/images/coffee-brazil.jpg'
     },
@@ -56,7 +56,7 @@ const productsData = [
         notes: '10 штук в упаковке',
         weight: '',
         price: '18 BYN',
-        bgColor: '#F0ECE8', // Теплый светло-серый
+        bgColor: '#F4EBE1', // Теплый светло-серый
         badge: 'Хит',
         image: '/images/drip-packets.jpg'
     }

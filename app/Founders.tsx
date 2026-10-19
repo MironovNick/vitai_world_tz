@@ -21,8 +21,6 @@ export const Founders = () => {
                             style={{ objectFit: 'cover' }}
                         />
                     </ImageWrapper>
-                    {/* Декоративный элемент, отсылающий к крафту */}
-                    <Badge>жарим кофе с 2019 года</Badge>
                 </ImageColumn>
 
                 {/* Правая колонка: Текст */}
